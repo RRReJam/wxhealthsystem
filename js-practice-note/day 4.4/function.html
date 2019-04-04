@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">d
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    // var login = new Function("console.log('666')");
+    // login();
+    // login.name = "可以";
+    //
+    // console.log(login.name)
+    //
+    // function sum(a,b) {
+    //     var d = a + b;
+    //
+    //     return d;
+    // }
+    //      sum(1,2);
+    //   function rad(r) {
+    //       var s = Math.PI*r*r;
+    //       return s;
+    //
+    //   }
+    //     var res = rad(5);
+    //   console.log(res)
+      var obj = {
+          b:1,
+          c:2,
+          d:3
+      }
+        function hi(a) {
+            console.log("我"+a.b+"是"+a.c+"是"+a.d)
+        }
+
+
+        hi(obj)
+
+
+
+
+    function hi1(hello) {
+        hello(obj)
+    }
+      hi1(hi)
+    var x=1,y=z=0;
+      function add(n) {
+          return n = n +1
+          
+      }
+      y=add(x)
+    function add(n) {
+        return n = n+3
+    }
+     z=add(x)
+    console.log(x,y,z)
+
+    for(var n in obj){
+
+        console.log(n)
+        console.log(obj[n])
+    }
+    var foo = 1;
+    function bv() {
+        console.log(foo);
+        var foo = 2;
+        console.log(foo)
+    }
+    bv()
+
+
+
+
+</script>
+
+</body>
+</html>
