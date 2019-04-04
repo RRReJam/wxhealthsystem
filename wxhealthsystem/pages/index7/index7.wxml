@@ -1,0 +1,40 @@
+<view class="home-page">
+    <view class="swiper-image"><swiper autoplay='true' indicator-dots='true' indicator-color='#00E09E' indicator-active-color='#1E90FF' circular='true'>
+    <swiper-item><image bindtap='im1' src='../../images/home1.png'></image></swiper-item>
+    <swiper-item><image  bindtap='im2' src='../../images/home2.jpg'></image></swiper-item>
+    <swiper-item><image  bindtap='im3' src='../../images/home3.jpg'></image></swiper-item>
+    </swiper>
+    </view>
+    <view class='content' bindtap='healthtestindex'>
+         <view class='content-1'>
+         <view class='contenttest'><text>健康信息收集</text> <image src='../../images/测试.png'></image></view>
+         <view><image src='../../images/healthtest.jpg'></image></view>
+         <view><text style='color:#75878a;margin-top:30rpx'>输入的健康信息并记录</text></view>
+         <view></view>
+         </view>
+
+    </view>
+    <view class='content' bindtap='healthtestindex2'>
+         <view class='content-1'>
+         <view class='contenttest'><text>健康信息查看</text> <image src='../../images/查看.png'></image></view>
+         <view><image src='../../images/查看1.jpg'></image></view>
+         <view><text style='color:#75878a;margin-top:30rpx'>进入查看以往健康信息便于查看</text></view>
+         <view></view>
+         </view>
+
+    </view>
+    
+    <view class='message' bindtap='messageindex'>
+         <view class='content-1'>
+         <view class='contenttest'><text>留言板</text> <image src='../../images/留言板.png'></image></view>
+         <view><image src='../../images/message.jpg' style='width:100%'></image></view>
+         <view><text style='color:#75878a;margin-top:30rpx'>点击进入留言板</text></view>
+         <view></view>
+         </view>
+
+         </view>
+
+
+
+
+</view>

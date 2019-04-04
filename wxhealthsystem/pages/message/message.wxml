@@ -1,0 +1,19 @@
+<view class='messagehead'>
+     <view class="usericon"><image src='{{avatarUrl}}'></image><text style='padding-left:30rpx;font-weight:bold'>{{nickname}}</text></view>
+     <view class="usersay"><text>{{messagetext}}</text></view>
+
+
+
+
+</view>
+<view class='message-input'>
+<form bindsubmit="formSubmit">
+
+<input type="text" name="messagetext" placeholder='请输入留言内容' class="input-style"/>
+<button formType="submit" class="btn" wx:if="{{nickName == empty}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" bindtap='login' >授权登录</button>
+<button formType="submit" class="btn" wx:else>留言</button>
+<input  type="text" name="nickname"  value='{{nickName}}' style=" color:white" />
+<input type="text" name="avatarUrl"   value='{{avatarUrl}}' style="color:white" />
+
+</form>
+</view>

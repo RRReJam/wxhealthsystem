@@ -1,0 +1,33 @@
+.home-page{
+  display: flex;
+  flex-direction: column
+}
+
+.swiper-image swiper image{
+  width: 100%
+}
+.content image{
+  width: 100%;
+  height: 350rpx
+}
+.content{
+  border: 20rpx solid antiquewhite
+}
+.contenttest{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+  color: black;
+  font-weight: bold;
+  font-family: STKaiti 
+}
+.contentdata{
+  font-size: 20rpx;
+  color: red;
+  margin-left: 30rpx;
+}
+.contenttest image{
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle
+}

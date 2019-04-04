@@ -1,0 +1,7 @@
+@import "../template/template.wxss";
+
+
+.image3-text{
+  display: flex;
+  flex-direction: column
+}

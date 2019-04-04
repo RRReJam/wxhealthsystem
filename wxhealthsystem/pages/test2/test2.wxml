@@ -1,0 +1,23 @@
+<view class="test2">
+  <view class="test2img"><image src='../../images/healthtest2.jpg'></image></view>
+  <view class="test2text"><text>在此查看之前记录的数据，请合理安排运动哦</text></view>
+  <view clas="test2data">
+   <text>数据列表</text>
+   <view wx:for="{{user}}">
+   <view class="test2data-text"><text>姓名：{{item.username}}</text></view>
+   <view class="test2data-text"><text>年龄：{{item.userage}}</text></view>
+   <view class="test2data-text"><text>性别：{{item.usersex}}</text></view>
+   <view class="test2data-text"><text>体重：{{item.userweight}}</text></view>
+   <view class="test2data-text"><text>步数：{{item.usestep}}</text></view>
+   <view class="test2data-text"><text>日期：{{item.userdate}}</text></view>
+
+  
+  </view>
+ </view>
+
+
+
+
+
+
+</view>

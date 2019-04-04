@@ -1,0 +1,42 @@
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.logo{
+ 
+  margin-top: 100rpx;
+  width: 512rpx;
+  height: 512rpx;
+}
+.username{
+  
+  margin-top: 100rpx;
+  font-size: 50rpx
+}
+
+.login{
+  margin-top: 100rpx;
+  border: 1px solid;
+  background-color: #00E09E;
+  color: aliceblue;
+  border-radius: 30rpx;
+  padding: 20rpx
+  
+}
+.usericon{
+  width: 150rpx;
+  height:150rpx
+}
+  
+.userinfo-nickname{
+  font-size: 80rpx;
+  color:  #00E09E
+  
+}
+.indexheader{
+  margin-top: 100rpx;
+  border: 1px solid #00E09E;
+  border-radius: 50rpx;
+  background-color: blanchedalmond
+}

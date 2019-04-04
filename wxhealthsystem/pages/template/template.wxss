@@ -1,0 +1,37 @@
+
+
+.image1-head image{
+  height: 300rpx
+
+}
+
+
+
+
+
+.image1-title {
+
+ 
+}
+.image1-title image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 50rpx
+}
+
+
+
+.image1-title text{
+  font-size: 50rpx;
+  margin-left: 20rpx;
+  color: #00E09E
+  
+
+
+}
+
+.image1-titletext{
+  font-size: 40rpx;
+  color:#75878a;
+  margin-top: 30rpx
+}

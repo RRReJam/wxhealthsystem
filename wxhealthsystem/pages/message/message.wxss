@@ -1,0 +1,26 @@
+.messagehead{
+  display: flex;
+  flex-direction: column;
+  
+}
+.message-input{
+  position: fixed;
+  width: 100%;
+  bottom: 0
+ 
+  
+
+}
+.input-style{
+  border: 5rpx solid antiquewhite
+}
+.usericon{
+  margin-top: 30rpx
+}
+.usericon image{
+   width:150rpx ;
+  height: 150rpx
+}
+.usersay{
+  border: 10rpx solid aqua
+}

@@ -1,0 +1,14 @@
+<view class="head">
+   <image class='logo' src="../icons/健康.png" ></image>
+   <view class="userlogo"> </view>
+  
+   <button class='login' wx:if="{{!hasUserInfo && canIUse}}" open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo" catchtap='onPostTap'>请先授权登陆哦</button>
+   <block wx:elif="{{hasUserInfo==true}}">
+        <image class="usericon" src="{{userInfo.avatarUrl}}"></image>
+        <text class="userinfo-nickname">hi {{userInfo.nickName}}</text>
+        <button bindtap='indexhead' class="indexheader">进入首页</button>
+   
+   </block>
+   
+   
+</view>

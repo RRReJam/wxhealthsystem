@@ -1,0 +1,8 @@
+
+<view class="image3-text">
+   <view class="image1-head"> <image src="{{image1icon}}" style='width:100%;'></image></view>
+       <view class="image1-title"><image  src='{{image1titleicon}}'></image><text>{{image1title}}</text> </view>
+       <view class="image1-titletext">  <text> {{image1titletext}}</text> </view>
+
+
+</view>

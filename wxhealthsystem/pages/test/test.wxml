@@ -1,0 +1,13 @@
+
+<form bindsubmit='res'>
+  <view class="section">
+  <input class="weui-input" name="username" placeholder="姓名" focus/>
+  <input class="weui-input" name="userage" placeholder="年龄" focus/>
+  <input class="weui-input" name="usersex" placeholder="性别"focus/>
+  <input class="weui-input" name="userweight" placeholder="体重"focus/>
+  <input class="weui-input" name="userstep" placeholder="今日步数(参考微信步数" focus/>
+  <input class="weui-input" name="userdate" value='{{time}}'  disabled='true'focus/>
+  </view>
+  <view><button form-type='submit'>提交</button></view>
+  </form>
+

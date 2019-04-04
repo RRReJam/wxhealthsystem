@@ -1,0 +1,17 @@
+.test2{
+  display: flex;
+  flex-direction: column
+}
+.test2img image{
+  width: 100%;
+  height: 300rpx
+}
+
+.test2text text{
+  color: aqua;
+  font-weight: bolder
+}
+.test2data-text{
+  border: 6rpx solid aqua;
+  border-radius: 20rpx
+}
